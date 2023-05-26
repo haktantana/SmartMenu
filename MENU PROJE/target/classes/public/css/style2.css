@@ -1,0 +1,131 @@
+*{
+   padding:0;
+   margin:0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.cart-btn{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size:20px;
+    padding:5px;
+    border-radius:5px;
+    border:none;
+    color:green;
+    cursor: pointer;
+    background-color: wheat;
+}
+
+
+
+.course{
+    text-align:center;
+    color:brown;
+    margin-bottom:50px;
+}
+.divider{
+    background-color:black;
+    margin:15px auto;
+    width:40%;
+    height:3px;
+}
+.description{
+    display:inline-block;
+    margin-bottom:20px;
+}
+
+.food{
+    display:block;
+    background-color:wheat;
+    border-radius:10px;
+    padding:20px;
+    margin:15px;
+    margin-bottom:50px;
+    max-width:200px;
+    transition: transform .2s; 
+}
+
+.food:hover{
+    transform: scale(1.3);
+}
+
+.food-name{
+    margin-bottom:50px;
+    color:chocolate;
+   
+}
+
+.image{
+    float:left;
+    display:block;
+    margin:auto 15px;  
+    margin-bottom:50px;
+    max-width: 175px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.input{
+margin:10px auto;
+}
+
+.main{
+    
+    text-align: center;
+}
+
+.menu-body{
+    margin:0 200px;
+    margin-top:0;
+}
+
+.menu-column{
+    display:inline-block;
+    margin: 40px;
+    margin-top:30px;
+}
+.menu-header{
+    padding:20px;
+    margin:20px;
+    text-align:center;
+}
+.menu-title{
+    font-weight:2000;
+    font-size:50px;
+    color:darkslateblue;
+    margin-bottom: 10px;
+}
+
+.order-btn{
+    color:red;
+    font-size:30px;
+    background-color:wheat;
+    border:none;
+   
+}
+
+.order-btn:hover{
+  color:green;
+  cursor: pointer;
+}
+
+.person-list-body{
+    background-color:wheat;
+    border-radius:20px;
+    margin:50px 500px;
+    padding:70px 0;
+}
+
+.right{
+    font-style:italic;
+    float:right;
+    margin-right: 5px;
+    color:green;
+}
+
+
+ 
