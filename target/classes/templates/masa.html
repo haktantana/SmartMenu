@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<link rel="stylesheet" href="\css\style.css">
+	<link rel="stylesheet" href="\css\style2.css">
+	<meta charset="UTF-8">
+	<title>New Order</title>
+</head>
+
+<body>
+	<div class="main">
+		<div class="person-list-body">
+			<div class="menu-header">
+			<h1>Your table</h1>
+	</div>
+	<p>Enter your table number:</p>
+	<form action="/enter-table-no" method="post" th:object="${order}">
+			<div class="input">
+			<input type="text" th:field="*{masaNo}">
+		</div>
+		
+		<button type="submit" class="cart-btn">Confirm the order</button>
+	</form>
+	</div>
+</div>
+</body>
+
+</html>
